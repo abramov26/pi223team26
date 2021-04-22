@@ -4,14 +4,12 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Результат сложения</title>
+<title>Результат вычисления</title>
 </head>
 <body>
-<h1>Результат сложения</h1>
-<h2>Ваши введеные данные:</h2>
-<p><strong>Первое слагаемое:</strong> ${first_result}</p>
-<p><strong>Второе слагаемое:</strong> ${second_result}</p>
-<p><strong>Результат:</strong> ${result}</p>
+<h2>Результат:</h2>
+<p>${formattedResult} куб. м</p>
+<p>${formattedResultInMm} куб мм</p>
 
 <form action="${pageContext.request.contextPath}/Form.jsp">
     <input type="submit" name="sign" value="Назад">
