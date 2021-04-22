@@ -26,8 +26,10 @@
         <h2 class="result__caption">Результат<br></h2>
         <p class="result__string__1">${formattedResult} куб. м</p>
         <p class="result__string__2">${formattedResultInMm} куб. мм</p>
-        <form action="${pageContext.request.contextPath}/Form.jsp">
+        <form action="${pageContext.request.contextPath}/MainForm">
             <button class="back__button" type="submit">НА ГЛАВНУЮ</button>
+            <input type="hidden" name="first" value="${first}">
+            <input type="hidden" name="second" value="${second}">
         </form>
 
     </div>
