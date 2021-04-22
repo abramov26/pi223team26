@@ -54,6 +54,8 @@ public class Calc extends HttpServlet {
 			String formattedResult = String.format("%.2f",result);
 			result_in_mm = result * 1000000;
 			String formattedResultInMm = String.format("%.2f",result_in_mm);
+			request.setAttribute("first", first_calc);
+			request.setAttribute("second", second_calc);
 			request.setAttribute("formattedResult", formattedResult);
 			request.setAttribute("formattedResultInMm", formattedResultInMm);
 		}
