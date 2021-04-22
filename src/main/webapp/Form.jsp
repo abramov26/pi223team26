@@ -25,8 +25,8 @@
         
         <form action="${pageContext.request.contextPath}/JavaCalc" method="POST">
             <div class="main__form">
-                <input class="ball__radius__input" type="number" name="first" placeholder="Радиус шара (м)">
-                <input class="height__input" type="number" name="second" placeholder="Высота (м)">
+                <input class="ball__radius__input" type="number" name="first" step=0.001 value="${first}" placeholder="Радиус шара (м)">
+                <input class="height__input" type="number" name="second" step=0.001 value="${second}" placeholder="Высота сегмента (м)">
                 <button class="upload__button" type="submit">ВЫЧИСЛИТЬ</button>
             </div>
         </form>
