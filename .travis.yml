@@ -5,3 +5,7 @@ deploy:
   provider: heroku
   api_key:
     secure: JcvRw/HXOQLj3HeTE4gaQb7tSEzYnAlHRCyMqqCVc6mvh+otnssE85SAbp1HbWHLtrLeu+Ab7uXz7tEZUc0rQ2wP7/TZOzAGhAO9Tbr+OKp9f90xNlvhantibKkmE2qZFkAuzc6fdjlnj/hz5u8E2bcYr01Y9eLqR+nP1BERAm9a5ov2j32ERGIgXh6ls8TkrCsjrWlgNJbQgroibLGZyeYOCmS6un4Rw46iXDFOCMGHuX4LjFXXQO4rHUG0N6VTkA1Fhxi6y9I6xyvKeZshe94klxFIOagQQm7TLcvPr9q9NgUwec17F8jPnCyyiquJP47VBQ2/nhQMoarGLcDjviJd7jqjcTo6mxXPpQZUE1Bg2dKpl9HeCs6zcizH/1kxg1Us9r+QiIowlwQ+V/cDF/ggVWba6sJcBe/sU7z9t50Bdqx/SQtRtM6AOKljuxbiOoLwQTBWfpsNNvroGVtfJyDH63HIY5h+OvdmavmlSFjOMTi4W3i/rTUZnW8OX8ox4kRzEjWPlr1iThj2ke5Cqoi4/aqaB/uT/LqiWFlvYcGtXKWf4HjwwPuLbAgbmFDCF1cLrvbVy7JCYU+PvB68cSyCPoSUwFTDB56bBmdX4XAY3wMGb3DDRiB0yTJVhwmU8OJYmTqGDeQCmDFjUbt/YZ1QgzZp8jYf1UpFGZzzGeM=
+  app:
+    master: pi223team26
+    demenev: demenev-branch
+    fattakhov: fattakhov-branch
